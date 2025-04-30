@@ -8,26 +8,13 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
     background: #2c3e50;
     color: #ecf0f1;
     padding: 20px 0;
-}
-
-header .container {
-    text-align: center;
-}
-
-header nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-header nav ul li
+    position: sticky;
+    top: 0;
+    z-index:
